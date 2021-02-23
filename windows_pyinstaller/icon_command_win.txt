@@ -1,0 +1,4 @@
+pyinstaller.exe --onefile --windowed --icon=app.ico app.py
+
+e.g.:
+pyinstaller.exe --onefile --windowed --icon=sf_logo.ico pathConv.py

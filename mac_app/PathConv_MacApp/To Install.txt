@@ -1,0 +1,1 @@
+To install, drag the PathConv app into your Applications folder.  Then add it to your Dock or make an alias wherever is convenient.

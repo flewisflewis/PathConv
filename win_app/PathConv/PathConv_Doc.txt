@@ -1,0 +1,7 @@
+PathConv Documentation:
+
+PathConv operates on the current clipboard.
+A confirmation dialog will indicate what kind of conversion was done, if any.
+If the clipboard contains a Windows Path, it will be converted to a Unix Path and "X:" will be converted to "Rodan".
+If the clipboard contains a Unix Path, it will be converted to a Windows Path and "Rodan" will be converted to "X:".
+If the clipboard doesn't contain a valid path, nothing will happen.

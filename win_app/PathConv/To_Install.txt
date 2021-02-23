@@ -1,0 +1,4 @@
+To install PathConv for windows, copy the PathConv folder to your
+c:\Program Files
+folder and then make a shortcut for the pathConv.exe file on your desktop
+or wherever is convenient.
