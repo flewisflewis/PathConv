@@ -18,7 +18,7 @@ def main():
 
     root = tk.Tk()  # Needed to avoid having a window pop up
     root.withdraw()  # Needed to avoid having a window pop up
-    path = pyperclip.paste()
+    path = pyperclip.paste().replace('"', "")
 
     if path:
         # The first item in reps will always be used when converting to Unix

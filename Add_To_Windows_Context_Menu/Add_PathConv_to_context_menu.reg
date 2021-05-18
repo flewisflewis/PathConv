@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\PathConv]
+@="PathConv"
+"Icon"="imageres.dll,-5302"
+
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\PathConv\command]
+@="\"C:\\Program Files\\PathConv\\pathConv.exe\" \"%1\""
