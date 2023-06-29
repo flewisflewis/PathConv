@@ -1,9 +1,9 @@
 # pathConv
+# Python 3 for PyInstaller on Win
 # Operates on the clipboard
 # Converts Windows Path to Unix
 # Converts Unix Path to Windows
 
-# import messagebox to avoid having a window pop up in the OS
 import tkinter as tk
 from tkinter import messagebox as msg
 
@@ -22,7 +22,7 @@ def main():
 
     if path:
         # The first item in reps will always be used when converting to Unix
-        reps = ["/Volumes/Rodan", "Rodan"]
+        reps = ["/Volumes/Shogun", "Shogun"]
         if "/" in path:
             if not "\\" in path:
                 for rep in reps:

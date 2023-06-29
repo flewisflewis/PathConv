@@ -1,4 +1,5 @@
 # pathConv
+# Python 2.7 for PyInstaller on Mac
 # Operates on the clipboard in Windows
 # Converts Windows Path to Unix
 # Converts Unix Path to Windows
@@ -19,10 +20,10 @@ def main():
 
     if path:
         # The first item in reps will always be used when converting to Unix
-        reps = ["/Volumes/Rodan", "Rodan"]
+        reps = ["/Volumes/Shogun", "Shogun"]
         if "/" in path:
             if not "\\" in path:
-                reps = ["/Volumes/Rodan", "Rodan"]
+                reps = ["/Volumes/Shogun", "Shogun"]
                 for rep in reps:
                     if path.startswith(rep):
                         path = path.replace(rep, "X:", 1)
